@@ -1,0 +1,17 @@
+{
+  "name": "chatgptapi",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.2.5",
+    "elysia": "^1.1.4",
+    "langchain": "^0.2.11",
+    "logixlysia": "^3.6.0"
+  }
+}

@@ -1,0 +1,15 @@
+GET http://localhost:3000/add-new
+
+
+###
+
+GET http://localhost:3000/get-history
+
+###
+
+POST  http://localhost:3000/get-chat/08ecd95d-4421-431f-9a1d-59ae85b58728
+Content-Type: application/json
+
+{
+    "question": "how many kids he have"
+}
